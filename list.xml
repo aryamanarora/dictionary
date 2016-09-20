@@ -5,5 +5,10 @@
 		<t>hello</t>
 		<pos>interj.</pos>
 		<d>said to greet one another</d>
-    </word>
+	</word>
+	<word>
+		<t>hi</t>
+		<pos>interj.</pos>
+		<d>informal "hello"</d>
+	</word>
 </list>
