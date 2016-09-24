@@ -5,9 +5,9 @@
 <xsl:template match="/">
 	<html style="font-family:sans-serif;">
 		<body>
-			<b><xsl:for-each select="list/word"></b>
+			<xsl:for-each select="list/word"> 
 			<dl>
-				<i><xsl:value-of select="pos"/></i>
+				<dt><xsl:value-of select="t"/></dt> - <i><xsl:value-of select="pos"/></i>
 				<dd><xsl:value-of select="d"/></dd>
 			</dl>
 		    </xsl:for-each>
