@@ -7,7 +7,7 @@
 		<body>
 			<xsl:for-each select="list/word"> 
 			<dl>
-				<dt><xsl:value-of select="t"/></dt> - <i><xsl:value-of select="pos"/></i>
+				<dt><b><xsl:value-of select="t"/></b></dt> - <i><xsl:value-of select="pos"/></i>
 				<dd><xsl:value-of select="d"/></dd>
 			</dl>
 		    </xsl:for-each>
